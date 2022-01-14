@@ -1,7 +1,14 @@
-//
-// g++ health-status-led-sample.cpp -lpthread -o led
-//
-//
+/**********************************************************************************************************************/
+/*
+*Sample code LED , could be used for multithreaded app , device health status monitoring etc
+*
+* Compile:
+* g++ health-status-led-sample.cpp -lpthread -o led
+*
+*
+*/
+/**********************************************************************************************************************/
+
 
 #include <stdio.h>
 #include <pthread.h>
