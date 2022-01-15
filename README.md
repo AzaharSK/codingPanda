@@ -1,3 +1,1 @@
-# codingPanda
-
-C++ STL QT sample codes
+# C++ STL QT sample codes
