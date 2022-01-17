@@ -37,8 +37,30 @@ return 0;
   
 }
 ```  
+### NOTE:  
+A template is a blueprint or formula for creating a generic class or a function. 
+The library containers like iterators and algorithms are examples of generic programming and have been developed using template concept.
   
-  A template is a blueprint or formula for creating a generic class or a function. 
-  The library containers like iterators and algorithms are examples of generic programming and have been developed using template concept.
+  Example :                              
+  std::sort() function can sort all types of data , It work on any data type - int , char , strings etc or even UDT (User defined Data type)
+
+There is a single definition of each container, such as vector, 
+but we can define many different kinds of vectors for example, 
+
+```
+vector <int> myVec;
+vector <string> myVec; 
+```
   
-  
+##  Overloading Function Template
+```
+template <typename T1 , typename T2>
+auto getMax(const T1& x , const T2& y)              ////C++14 auto return type
+{
+      return (x>y)? x : y;
+}
+```
+```
+cout<<getMax(10.5,  'A'); // 65  =ASCII(A) 
+cout<<getMax(10.6 , 20);  //20
+```
