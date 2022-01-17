@@ -149,7 +149,7 @@ For a compiler, all pointers have a fixed size irrespective of the data type the
 
 # Why is the Size of an Empty Class Not Zero in C++?
 
-In C++, the Size of an empty structure/class =>  1 byte   not zero.
+In C++, the Size of an empty structure/class =>  1 byte   not zero.                  
 As to call a function at least empty structure/class should have some size (minimum 1 byte is required )  
 i.e. one byte to make them distinguishable.   
 Ensure that the two different objects will have different addresses
