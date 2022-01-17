@@ -123,3 +123,23 @@ cout<< numberInt.getNum();             // 7
 Number<double> numberDouble(7.7);
 cout << numberDouble.getNum();         //7.7
 ```  
+
+
+
+# Advantages of Using Templates in C++
+* Templates are type-safe.
+* They are generally considered as an improvement over macros for these purposes.
+* Templates avoid some common errors found in code that makes heavy use of function-like macros.
+* Both templates and macros are expanded at compile time.
+* They are a good way of making generalisations for APIs.
+
+# Disadvantages of Using Templates in C++
+* Many compilers do not support nesting of templates.
+* When templates are used, all codes exposed.
+* Some compilers have poor support of templates.
+* Approx all compilers produce unhelpful, confusing error messages when errors are detected in the template code.
+* It can make it challenging to develop the template.
+
+# Overloading of C++ template
+* A template function is called that could be created with an exact match.
+* Call an ordinary function that has an exact match.
