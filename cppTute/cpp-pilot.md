@@ -50,7 +50,7 @@ inherit in Batsman and add more Specialization functionalities  hit() run() scor
     Data member exposed to outside world, From anywhere we can access the data
  
  ```
-    
+  ### By Default: C++ data members are PRIVATE  
     
 # C++ also provide OOP feature over C
 
