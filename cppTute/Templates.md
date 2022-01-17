@@ -61,3 +61,26 @@ auto getMax(const T1& x , const T2& y)              ////C++14 auto return type
 cout<< getMax(10.5,  'A'); // 65  =ASCII(A) 
 cout<< getMax(10.6 , 20);  //20
 ```
+
+## auto as parameter are not (yet) allowed for regular functions.
+
+```
+auto getMax(const auto x , const auto y)
+{
+      return (x>y)? x : y;
+}
+
+```
+```
+//Throws Warning :
+template1.cpp:7:19: warning: use of ‘auto’ in parameter declaration only available with ‘-fconcepts’
+
+//But still compile and run works on g++ v9.3.0
+g++ template1.cpp  -o temp
+./temp works
+```
+* To get around warning : You might like to use regular template, something like above 
+
+
+
+
