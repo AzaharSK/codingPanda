@@ -62,7 +62,8 @@ cout<< getMax(10.5,  'A'); // 65  =ASCII(A)
 cout<< getMax(10.6 , 20);  //20
 ```
 
-## auto as parameter are not (yet) allowed for regular functions.
+## Can we use 'auto' in function parameter declaration, in C++ ? 
+## auto as parameter are not (yet) allowed for regular functions but Works with warning from C++17.  Pass:  g++ -std=c++17 
 
 ```
 auto getMax(const auto x , const auto y)
@@ -75,7 +76,7 @@ auto getMax(const auto x , const auto y)
 //Throws Warning :
 template1.cpp:7:19: warning: use of ‘auto’ in parameter declaration only available with ‘-fconcepts’
 
-//But still compile and run works on g++ v9.3.0
+//But still compile and run works on g++ v9.3.0 
 g++ template1.cpp  -o temp
 ./temp works
 ```
@@ -83,4 +84,36 @@ g++ template1.cpp  -o temp
 
 
 
+# Class Template C++
 
+class templates are useful when a class defines something that is independent of the data type.             
+Can be useful for creating container classes like List, BinaryTree, Stack, Queue, Array, vector etc. 
+
+
+
+```
+template <class T>
+
+ class Number {
+ 
+  private:
+    T num;                        // Variable of type T
+
+   public:
+    Number(T value) : num(value) {}         // constructor
+
+    T getNum() {
+        return num;
+    }
+};
+```
+
+Main calls
+
+```  
+Number<int> numberInt(7);
+cout<< numberInt.getNum();             // 7
+  
+Number<double> numberDouble(7.7);
+cout << numberDouble.getNum();         //7.7
+```  
