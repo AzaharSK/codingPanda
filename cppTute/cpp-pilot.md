@@ -15,8 +15,6 @@ task B
   do subTaskB2()
   do subTaskB3()
 ```
-          vs
-
 
 ## C++ is a Hybrid programming language 
 PROCEDURE + OOP (Object Oriented Programming ) language                                                         
