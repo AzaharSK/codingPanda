@@ -23,19 +23,14 @@ T getMax(const T& x , const T& y)
         return (x>y)? x :y ;
 }
 
+cout<< getMax(100 , 20);                 // 100 
+cout<< getMax('A', 'Z');                 // Z
+cout<< getMax(10.5 , 5.11);              // 10.5
 
-int main()
-{
-        cout<<getMax(100 , 20);                 // 100 
-        cout<<getMax('A', 'Z');                 // Z
-        cout<<getMax(10.5 , 5.11);              // 10.5
+string s1("ABC") ;
+string s2("XYZ");
+cout<< getMax(s1 , s2);                 // XYZ
 
-        string s1("ABC") ;
-        string s2("XYZ");
-        cout<<getMax(s1 , s2);                 // XYZ
-return 0;
-  
-}
 ```  
 ### NOTE:  
 A template is a blueprint or formula for creating a generic class or a function. 
