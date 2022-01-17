@@ -52,7 +52,9 @@ vector <int> myVec;
 vector <string> myVec; 
 ```
   
-##  Overloading Function Template
+##  Overloading Function Template : 
+Overloading with Templated mix matched types just works :)  
+
 ```
 template <typename T1 , typename T2>
 auto getMax(const T1& x , const T2& y)              ////C++14 auto return type
