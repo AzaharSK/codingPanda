@@ -137,8 +137,23 @@ bad_variant_access(C++17)
 ```
 
 
-# C   => Follows => TOP_DOWN approches
-# C++ => FOllows => BUTTOM_UP approches
+## C   => Follows => TOP_DOWN approches
+
+```
+1.First we will make a high level design of a problem statement.
+
+2.After that we will write the main function.
+
+3.From the main function we will call the sub functions.
+
+Generally, the large program is divided into small small sub functions(each function will do a specific task) which improves the modularity of a program.
+
+Using that we can easily debug the program.
+
+4.Later we will implement(code) all the sub functions based on requirements. Thats why c is called the top down approach.
+```
+
+## C++ => FOllows => BUTTOM_UP approches
 
   
   
