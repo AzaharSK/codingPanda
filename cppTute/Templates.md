@@ -89,7 +89,13 @@ g++ template1.cpp  -o temp
 class templates are useful when a class defines something that is independent of the data type.             
 Can be useful for creating container classes like List, BinaryTree, Stack, Queue, Array, vector etc. 
 
-
+```
+list<int> mylist;
+list<string> mylist;
+list<books> mylist;
+list<dishes> menu;
+```  
+Examples:  
 
 ```
 template <class T>
