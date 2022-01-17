@@ -32,6 +32,7 @@ struct MyStruct {
 [3] Data hiding and Encapsulation, Several layer Abstractions etc can be implemented 
 [4] Clas member and feature functionalites can be inherited into Dervied class/Child classes
 [5] Class can be Abstract
+[6} Class Object is reference-type
 ```
 
 # Nested Classes in C++
