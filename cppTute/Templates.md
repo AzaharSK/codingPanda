@@ -91,9 +91,9 @@ Can be useful for creating container classes like List, BinaryTree, Stack, Queue
 
 ```
 list<int> mylist;
-list<string> mylist;
-list<books> mylist;
-list<dishes> menu;
+list<string> contactList;
+list<books> bookList;
+list<dishes> menuCard;
 ```  
 Examples:  
 
