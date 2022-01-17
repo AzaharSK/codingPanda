@@ -26,9 +26,9 @@ Eg- Game: Player Batsman Boller score Enemy etc
 
 Easily Define Game rule
 
-create funcationalites of Player 
+Create funcationalites of Player 
 
-and specialization like  Batsman , hit() run() 
+Specialization like  Batsman , hit() run() 
 
 
 # C++ is more secure than C 
