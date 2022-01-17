@@ -1,6 +1,6 @@
 # What are POD types in C++?
 
-POD is an acronym in C++ that means plain old data. 
+POD is an acronym in C++ that means "Plain Old Data".     
 It is a class/struct that ONLY has member variables and no methods, constructors, destructors, virtual functions, etc. For example,
 
 ```
