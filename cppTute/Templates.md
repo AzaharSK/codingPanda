@@ -58,6 +58,6 @@ auto getMax(const T1& x , const T2& y)              ////C++14 auto return type
 }
 ```
 ```
-cout<<getMax(10.5,  'A'); // 65  =ASCII(A) 
-cout<<getMax(10.6 , 20);  //20
+cout<< getMax(10.5,  'A'); // 65  =ASCII(A) 
+cout<< getMax(10.6 , 20);  //20
 ```
