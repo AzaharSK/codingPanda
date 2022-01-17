@@ -136,6 +136,13 @@ bad_variant_access(C++17)
 
 ```
 
+# C++ is a Generic programming Language
+It is possible with the help of templates and STL (Std template Lib)
+
+Example :                            
+std::sort() function can sort all types of data , 
+It work on any data type - int , char , strings etc or even UDT (User defined Data type) 
+
 
 ## C   => Follows => TOP_DOWN approches
 
