@@ -1,10 +1,13 @@
 
 ************************************** C vs C++ **********************************************
-    • Write a C program that won’t compile in C++
-    • Name Mangling and extern “C” in C++
-    • How does “void *” differ in C and C++?
+```
+• Write a C program that won’t compile in C++
+• Name Mangling and extern “C” in C++
+• How does “void *” differ in C and C++?
+```
 ************************* The basic data types in C++   ************************************
 
+```
     • Bool
     • Char
     • Int
@@ -16,15 +19,17 @@
     • integer promotion rule in c++
     • sizeof() is operator or function ? thoug it uses ( ) notation?
     • Definition of sizeof() macro
-
+```
 *******************************  The data type modifiers in C++  ************************************
+   ```
     • signed 
     • unsigned 
     • long 
     • short 
     • Type difference of character literals in C and C++
-
+```
 **************************** OOPs  ******************************************************
+```
     • Class and Object- Constructor and Destructor 
     • Distinguish between () and {} when creating objects.  
     • Sample obj;  VS  Sample* ptr =new Sample();  vs Sample* ptr = new Sample
@@ -33,8 +38,9 @@
     • Inheritance 
     • Polymorphism (Overloading & Overriding) –Virtual function ( Compile & Run time Binding )
     • Abstract class , Interface
-
+```
 ************** Data Abstraction vs  Data Encapsulation vs  Data Hiding ***********************
+```
 Data Abstraction 
     • Access Labels Enforce Abstraction
     • Benefits of Data Abstraction
@@ -48,14 +54,17 @@ Data Encapsulation
     • Data hiding
     • Method hiding
     • Method hiding vs method overrriding
+```
 ******************************************  Basic Input/Output  ***********************
+```
     • I/O Library Header Files 
     • The standard output stream (cout
     • The standard input stream (cin)
     • The standard error stream (cerr) 
     • The standard log stream (clog)
-
+```
 ************************* Type of Storage Classes in C++  ******************************************
+```
     • The auto Storage Class ,      why it called “auto” ?
     • The register Storage Class 
     • The static Storage Class 
@@ -65,15 +74,17 @@ Data Encapsulation
     • Mutable/Immutable object  vs  persistent object
     • String is mutable or immutable object in c++  ?
     • String is mutable or immutable object in  java ?
-
+```
 
 ****************************** Type Qualifiers in C++   *************************************
+```
     • const
     • volatile
     • restrict
     • explicit
-
+```
 **************************************** Reference Variables  ****************************************
+```
     • References in C++
     • Reference Initialization Rule
     • Size of References
@@ -87,14 +98,18 @@ Data Encapsulation
  Call by Reference using C pointer  –  which better  choice & why ?
 
     • Swap( a, b)   content using reference variable 
+```
+
 
 Function Overloading:
+
+```
     • Function Overloading in C++  [ change-  number of args |  types of args | order of args ]
     • Functions that can’t be overloaded in C++  
 
     • Function overloading and const keyword
-Int Func ( const int a )  vs  int Func ( int a )
-int Func ( int a ) const vs   int Func( int a )  
+        Int Func ( const int a )  vs  int Func ( int a )
+        int Func ( int a ) const vs   int Func( int a )  
 
     • Function overloading and return type
     • Type difference of character literals in C and C++  - how it useful  in Function overloading
@@ -104,6 +119,8 @@ int Func ( int a ) const vs   int Func( int a )
 
     • Can we declare a variable name  int main=3;    
     • Func()= 10;  vs    n=fuc()   vs   fun(10) 
+```
+
 Default Argument: 
     • Default Arguments in C++
 Inline Functions:
