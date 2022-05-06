@@ -1,5 +1,4 @@
 #include <iostream>
-//#include "modules/Factorial.hpp"
 #include "modules/Factorial.hpp"
 
 using namespace std;
